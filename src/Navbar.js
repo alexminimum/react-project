@@ -1,20 +1,20 @@
 const Navbar = () => {
   return (
-    <nav class="navigation">
-      <h2>Lolo Manolo</h2>
-      <ul>
-        <li>
-          <a href="/" className="link">
-            Home
-          </a>
-        </li>
-
-        <li>
-          <a href="/create" className="link">
-            Create
-          </a>
-        </li>
-      </ul>
+    <nav className="navbar">
+      <h1>The Dojo Blog</h1>
+      <div className="links">
+        <a href="/">Home</a>
+        <a
+          href="/create"
+          style={{
+            color: "white",
+            backgroundColor: "#046988",
+            borderRadius: "8px",
+          }}
+        >
+          New Blog
+        </a>
+      </div>
     </nav>
   );
 };
