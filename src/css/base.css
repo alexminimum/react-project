@@ -1,35 +1,172 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* base styles */
-body {
-  font-family: "Nunito", sans-serif;
-  color: #333;
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #040404;
+  background-color: #f4f4f4;
+}
+
+
+p {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 1.6em;
+}
+
+a {
+  color: #c60e1c;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+.h1_like,
+h2,
+.h2_like,
+h3,
+.h3_like,
+h4,
+.h4_like,
+h5,
+.h5_like,
+h6,
+.h6_like {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #d61b28;
+}
+
+h1,
+.h1_fs,
+.h1_like {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2,
+.h2_fs,
+.h2_like {
+  font-size: 3.157rem;
+}
+
+h3,
+.h3_fs,
+.h3_like {
+  font-size: 2.369rem;
+}
+
+h4,
+.h4_fs,
+.h4_like {
+  font-size: 1.777rem;
+}
+
+h5,
+.h5_fs,
+.h5_like {
+  font-size: 1.333rem;
+}
+
+h6,
+.h6_fs,
+.h6_like {
+  font-size: 1em;
+}
+
+small,
+.small_fs {
+  font-size: 0.8rem;
+}
+
+
+strong,
+.strong_fw {
+  font-weight: 600;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mr0 {
+  margin-right: 0;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.mr1 {
+  margin-right: 1rem;
+}
+
+.ml1 {
+  margin-left: 1rem;
+}
+
+/***/
+
 .navbar {
-  padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  padding: 0 20px;
 }
-.navbar h1 {
-  color: #1bacd8;
+
+
+.navbar h3 {
+  margin: 0;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
+
 .navbar a:hover {
-  color: #046988;
+  text-decoration: underline;
 }
+
 .content {
-  max-width: 600px;
+  width: 100%;
+  max-width: 1024px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 0 20px;
 }
